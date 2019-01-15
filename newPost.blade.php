@@ -12,3 +12,9 @@ To view the new activity, check out the following link:
 ---
 
 You won't receive any more notifications about this discussion until you're up-to-date.
+
+Nebulas
+Autonomous Metanet · The Future of Collaboration
+nebulas.io
+
+Nebulas Community: community.nebulas.io

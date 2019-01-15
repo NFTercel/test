@@ -484,16 +484,38 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Welcome to the Nebulas Community and Confirm your email address!
       body: |
-        Hey {username}!
+        Dear {username},
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        We just need to verify that {username} is you, who try to sign up to Nebulas Community with this email address.
 
-        If this was you, simply click the following link and your account will be activated:
+        Please click into the link to confirm your email address on Nebulas Community, and your account will be activated:
         {url}
 
-        If you did not sign up, please ignore this email.
+        
+
+        Didn’t request this email?
+        No worries! Your address may have been entered by mistake. If you ignore or delete this email, nothing further will happen.
+
+
+
+
+        Sincerely,
+
+        Nebulas Team.
+
+        —
+
+        Nebulas
+        Autonomous Metanet · The Future of Collaboration
+
+        nebulas.io
+
+
+
+        ——————————————————————
+        This message is sent only. If you have any questions, please contact us: contact@nebulas.io
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
@@ -508,6 +530,12 @@ core:
 
         If this was not you, please ignore this email.
 
+        Nebulas
+        Autonomous Metanet · The Future of Collaboration
+        nebulas.io
+
+        Nebulas Community: community.nebulas.io
+
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
@@ -521,6 +549,12 @@ core:
 
         If you do not wish to change your password, just ignore this email and nothing will happen.
 
+
+        Nebulas
+        Autonomous Metanet · The Future of Collaboration
+        nebulas.io
+
+        Nebulas Community: community.nebulas.io
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
